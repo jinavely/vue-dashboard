@@ -52,8 +52,8 @@ export default {
     };
   },
   mounted() {
-    this.$refs.liRef[0].classList.remove('active');
-    console.dir(this.$refs.liRef[1].classList.add('active'));
+    // this.$refs.liRef[0].classList.remove('active');
+    // console.dir(this.$refs.liRef[1].classList.add('active'));
   },
   methods: {
     // Nav Tabs
